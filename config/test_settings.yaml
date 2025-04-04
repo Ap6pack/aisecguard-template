@@ -1,0 +1,17 @@
+# Global AISecGuard configuration
+model:
+  endpoint: "http://localhost:8000/api/v1/ask"
+  headers:
+    Authorization: "Bearer YOUR_API_KEY"
+
+tests:
+  prompt_injection: true
+  jailbreak_detection: true
+  api_fuzzing: true
+  privacy_attacks: true
+  explainability: true
+
+logging:
+  enable: true
+  log_file: "aisecguard.log"
+  log_level: "INFO"

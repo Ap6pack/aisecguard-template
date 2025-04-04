@@ -1,0 +1,15 @@
+# Template config for replication/testing
+model:
+  endpoint: "https://api.openai.com/v1/chat/completions"
+  headers:
+    Content-Type: "application/json"
+    Authorization: "Bearer sk-..."
+
+use_cases:
+  - Chatbot
+  - Document Summarization
+  - Internal Knowledge Base
+
+privacy_settings:
+  pii_scanning: true
+  membership_inference: true
