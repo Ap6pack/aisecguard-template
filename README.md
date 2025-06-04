@@ -35,7 +35,7 @@ AISecGuard is an open-source framework to test, audit, and red team AI systems f
 ## 🧪 Quick Start
 
 ```bash
-git clone https://github.com/yourusername/AISecGuard.git
+git clone https://github.com/Ap6pack/AISecGuard.git
 cd AISecGuard
 pip install -r requirements.txt
 python tests/test_runners/run_all_tests.py
